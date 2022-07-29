@@ -1,0 +1,139 @@
+#discoveryworldvido {
+  height: 10%;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  margin-right: 50%;
+  padding-left: 5%;
+  padding-bottom: 30px;
+  padding-top: 5%;
+  width: 300px;
+  height: 90px;
+  top: 50px;
+  left: 80px;
+}
+
+.menu {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  word-spacing: 30px;
+  padding-bottom: 30px;
+  padding-top: 5%;
+  padding-right: 8%;
+  font-size: 30px;
+}
+
+.Message {
+  padding-top: 900px;
+  font-size: 150px;
+  bottom: 30%;
+  font-family: Monospace;
+  padding-left: 20%;
+  position: absolute;
+  font-weight: 500;
+}
+
+.worldclass {
+  display: flex;
+  margin-top: 250px;
+}
+
+.worldimg {
+  height: 1200px;
+  width: 40%;
+}
+
+.content {
+  width: 50%;
+  font-size: 35px;
+  color: grey;
+  text-indent: 1px;
+}
+
+.title {
+  padding: 250px;
+  padding-top: 0px;
+}
+
+.exploreimg {
+  height: 500px;
+}
+
+.exploreworld {
+  padding-left: 150px;
+}
+
+.explayout {
+  height: 1300px;
+  width: 100%;
+}
+
+.tag {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 20%;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.rowimg {
+  display: flex;
+  flex-direction: row;
+}
+
+.expimg {
+  width: 33.3%;
+}
+
+.footer {
+  background: rgb(11, 27, 24);
+  color: white;
+  width: 100%;
+  display: flex;
+  padding: 100px 0px;
+  font-size: 25px;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  padding-top: 10%;
+  padding-bottom: 13%;
+  line-break: auto;
+}
+
+.copyrights {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.items {
+  padding-right: 5%;
+}
+
+.mail {
+  text-decoration: underline;
+}
+
+.copy {
+  padding-left: 9.5%;
+}
+
+copy:hover {
+  text-decoration: underline;
+}

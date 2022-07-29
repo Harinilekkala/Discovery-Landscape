@@ -1,0 +1,214 @@
+body {
+  background-color: white;
+}
+
+.menu {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  word-spacing: 30px;
+  padding-bottom: 30px;
+  padding-top: 5%;
+  padding-right: 8%;
+  font-size: 30px;
+}
+
+.logo {
+  position: absolute;
+  margin-right: 50%;
+  padding-left: 5%;
+  padding-bottom: 30px;
+  padding-top: 5%;
+  width: 300px;
+  height: 90px;
+  top: 50px;
+  left: 80px;
+}
+
+.Message {
+  top: 700px;
+  font-size: 90px;
+  text-align: center;
+  bottom: 50%;
+  font-family: script;
+  left: 500px;
+  border: 100px soild red;
+  position: absolute;
+}
+
+.info {
+  font-size: 70px;
+  padding-top: 10%;
+  padding-left: 10%;
+  display: block;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  font-family: gt-sectra;
+  line-height: 2%;
+}
+
+#experiencevideo {
+  height: 10%;
+  width: 100%;
+}
+
+.excimg {
+  width: 60%;
+}
+
+.imgclass {
+  width: 100%;
+  height: 1300px;
+}
+
+.exclusive {
+  display: flex;
+  align-items: center;
+  padding: 8%;
+}
+
+.bio {
+  width: 40%;
+  padding-right: 20%;
+  font-size: 40px;
+  color: grey;
+}
+
+.golf {
+  position: relative;
+  background-color: whitesmoke;
+  padding-top: 10%;
+}
+
+.glfimg {
+  width: 100%;
+  height: auto;
+}
+
+.golfimg {
+  width: 70%;
+}
+
+.card {
+  position: absolute;
+  width: 600px;
+  background-color: white;
+  height: 600px;
+  right: 300px;
+  top: 500px;
+  padding: 5%;
+  font-size: 30px;
+  color: grey;
+}
+
+.button {
+  margin-top: 100px;
+  width: 200px;
+  font-size: 30px;
+
+  padding: 30px;
+}
+
+.pursuitsing {
+  width: 100%;
+}
+
+.pursuitsstyle {
+  width: 70%;
+  height: auto;
+  padding-left: 30%;
+}
+
+.outdoor {
+  position: absolute;
+  width: 600px;
+  background-color: white;
+  height: 600px;
+  left: 300px;
+  top: 500px;
+  padding: 5%;
+  font-size: 30px;
+  color: grey;
+}
+
+.wellnessstyle {
+  width: 100%;
+  height: auto;
+}
+
+.wellness {
+  width: 70%;
+}
+
+.worldstyle {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 300px;
+  left: 40%;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.world {
+  position: relative;
+}
+
+.worldposition {
+  background-color: whitesmoke;
+  margin-top: 300px;
+}
+
+.button2 {
+  margin-top: 100px;
+  width: 200px;
+  font-size: 30px;
+}
+
+.footer {
+  background: rgb(11, 27, 24);
+  color: white;
+  display: flex;
+  padding: 100px;
+  font-size: 25px;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  padding-top: 10%;
+}
+
+.copyrights {
+  width: 50%;
+  padding-bottom: 20%;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.items {
+  padding-right: 5%;
+}
+
+.copy {
+  padding-left: 9.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+.mail {
+  text-decoration: underline;
+}
