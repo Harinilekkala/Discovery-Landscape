@@ -2,54 +2,413 @@
 <html>
 
 <head>
-
     <link rel="stylesheet" href="../css/discovery world stylesheet.css">
+    <link rel="jssheet" href="../js/discoveryland.js">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
 <body>
 
-    <div class="container">
-        <div class="block1">
-            <video autoplay muted loop id="discoveryworldvido">
-                <source src="../assests/discoveryworldvido.mp4">
-            </video>
-        </div>
-
-        <div class="ourworld">
-            <div class="worldclass">
-                <div class="content">
-                    <div class="title">
-                    <h1>Welcome to <br> Our World</h1>
-                    <p>
-                        Discover the unique atmosphere of our private
-                        residential club communities. Once experienced. Never
-                        forgotten. This is classic, comfortable, modern living in
-                        nature’s most spectacular settings worldwide.
-                        Reassuringly exclusive. Generously welcoming. Find
-                        your unique world – a place where families love to be;
-                        creating unforgettable moments, together.
-                    </p>
-                    </div>
-                    <div class="exploreworld">
-                        <img class="exploreimg" src="../assests/explore our world.jpg">
-                    </div>
-                </div>
-                <img class="worldimg" src="../assests/ourworld2.jpg">
-
+    <div class="landblock">
+        <div class="containers">
+            <div class="block1">
+                <video autoplay muted loop id="discoveryworldvido">
+                    <source src="../assests/discoveryworldvido.mp4">
+                </video>
             </div>
 
-            <div class="rowimg">
-                <div class="expimg">
-                    <h1 class="tag">Experiences</h1>
-                    <img class="explayout" src="../assests/experiecesimg.jpg">
+            <div class="ourworld">
+                <div class="worldclass">
+                    <div class="content">
+                        <div class="titletag">
+                            <h1>Welcome to <br> Our World</h1>
+                            <p>
+                                Discover the unique atmosphere of our private
+                                residential club communities. Once experienced. Never
+                                forgotten. This is classic, comfortable, modern living in
+                                nature’s most spectacular settings worldwide.
+                                Reassuringly exclusive. Generously welcoming. Find
+                                your unique world – a place where families love to be;
+                                creating unforgettable moments, together.
+                            </p>
+                        </div>
+                        <div class="exploreworld">
+                            <img class="exploreimg" src="../assests/explore our world.jpg">
+                        </div>
+                    </div>
+                    <img class="worldimg" src="../assests/ourworld2.jpg">
                 </div>
-                <div class="expimg">
-                    <h1 class="tag">Lifestyle</h1>
-                    <img class="explayout" src="../assests/lifestyleimg.jpg">
+
+                <!-- Animation Block -->
+
+                <div class="animationblock">
+                    <div class="exploreworldtag">
+                        <h1 class="expheadingtag"><b>Explore </b>
+                            <p>OurWorld</p>
+                        </h1>
+                    </div>
+                    <div class="movingimg">
+                        <div class="slideshow">
+                            <h1 class="naming">Taymouth Castle </h1>
+                            <p class="editingcolor"> The Hamptons Newyork</p>
+                            <img class="slidingimg" src="../assests/world1.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Homewood <p> Mountain & Lakeclub
+                                <p>
+                            </h1>
+                            <p class="editingcolor"> Pertshire,Scotland</p>
+                            <img class="slidingimg" src="../assests/world2.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Naples Beach Club</h1>
+                            <p class="editingcolor"> Naples,Florida</p>
+                            <img class="slidingimg" src="../assests/world3.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Zapotal</h1>
+                            <p class="editingcolor"> Guanacaste,Costa Rica</p>
+                            <img class="slidingimg" src="../assests/world4.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">North shore preserve </h1>
+                            <p class="editingcolor"> kaua'i,Hawaii</p>
+                            <img class="slidingimg" src="../assests/world5.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">James Island </h1>
+                            <p class="editingcolor"> Southern Gulf Islands,British Columbia,Canada</p>
+                            <img class="slidingimg" src="../assests/world6.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Costaterra</h1>
+                            <p class="editingcolor"> Comporta,Portugal</p>
+                            <img class="slidingimg" src="../assests/world7.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Barbuda Ocean Club</h1>
+                            <p class="editingcolor">Barbuda,West Indies </p>
+                            <img class="slidingimg" src="../assests/world8.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Driftwood</h1>
+                            <p class="editingcolor"> Austin,Texas</p>
+                            <img class="slidingimg" src="../assests/world9.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Traubadour</h1>
+                            <p class="editingcolor"> Nashiville,Tennessee</p>
+                            <img class="slidingimg" src="../assests/world10.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Playa Grande</h1>
+                            <p class="editingcolor"> Rio San Juan,Dominician Republic</p>
+                            <img class="slidingimg" src="../assests/world11.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Chilenobay</h1>
+                            <p class="editingcolor"> Cabo Son Lucas , Mexico</p>
+                            <img class="slidingimg" src="../assests/world12.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">The Summit</h1>
+                            <p class="editingcolor"> Las Vegas , Nevada</p>
+                            <img class="slidingimg" src="../assests/world13.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Dune Deck</h1>
+                            <p class="editingcolor"> Westhampton Beach , NY</p>
+                            <img class="slidingimg" src="../assests/world14.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Silo Ridge</h1>
+                            <p class="editingcolor">Amenia , New York</p>
+                            <img class="slidingimg" src="../assests/world15.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Makena</h1>
+                            <p class="editingcolor"> Maui, Hawaii</p>
+                            <img class="slidingimg" src="../assests/world16.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Yellow Stone Club</h1>
+                            <p class="editingcolor"> Big Sky , Montana</p>
+                            <img class="slidingimg" src="../assests/world17.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Gozzer Ranch<h1>
+                                    <p class="editingcolor"> Coeur d'Alene , Idaho</p>
+                                    <img class="slidingimg" src="../assests/world18.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">El Dorado</h1>
+                            <p class="editingcolor"> Los Cabos Mexico</p>
+                            <img class="slidingimg" src="../assests/world19.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Madison</h1>
+                            <p class="editingcolor"> La Quinta , Calfornia</p>
+                            <img class="slidingimg" src="../assests/world20.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Baker's Bay</h1>
+                            <p class="editingcolor"> Great Guana Cay , Bahamas</p>
+                            <img class="slidingimg" src="../assests/world21.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Hideway</h1>
+                            <p class="editingcolor"> Le Quinta , Calfornia</p>
+                            <img class="slidingimg" src="../assests/world22.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Mountaintop</h1>
+                            <p class="editingcolor"> Cashiers , North Carolina</p>
+                            <img class="slidingimg" src="../assests/world23.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Mirabel</h1>
+                            <p class="editingcolor"> Scottsdale , Arizona</p>
+                            <img class="slidingimg" src="../assests/world24.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Kuki'o</h1>
+                            <p class="editingcolor"> Kohala , Hawaii</p>
+                            <img class="slidingimg" src="../assests/world25.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Vaquero</h1>
+                            <p class="editingcolor"> Westlake , Texas</p>
+                            <img class="slidingimg" src="../assests/world26.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Iron Horse</h1>
+                            <p class="editingcolor"> Whitefish , Montana</p>
+                            <img class="slidingimg" src="../assests/world27.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Cordevalle
+                                <p class="editingcolor"> Silicon Valley , Calfornia</p>
+                                <img class="slidingimg" src="../assests/world28.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Estancia</h1>
+                            <p class="editingcolor"> Scottsdale , Arizona</p>
+                            <img class="slidingimg" src="../assests/world29.jpg">
+                        </div>
+                        <div class="slideshow">
+                            <h1 class="naming">Costaterra</h1>
+                            <p class="editingcolor"> Comporta,Portugal</p>
+                            <img class="slidingimg" src="../assests/world30.jpg">
+                        </div>
+                    </div>
                 </div>
-                <div class="expimg">
-                    <h1 class="tag">Wellness</h1>
-                    <img class="explayout" src="../assests/wellnessimg.jpg">
+            </div>
+
+            <!-- Land Of Discovery -->
+
+            <div class="headingtag">
+                <h1 class="subtitle">Lands of
+                    <br> Discovery
+                </h1>
+                <p class="biotag">A world away from the day-to-day. Your escape. Your haven. Your world.
+                    <br>Explore the map below and take a journey to our communities.
+                </p>
+                <div class="elements">
+                    <div class="country"><b>NorthAmerica&Caribbean Hawaii Europe</b></div>
                 </div>
+            </div>
+
+            <div class="globecontainer">
+                <div class="globeblock">
+                    <img class="givemeasure" src="../assests/globe-usa.jpg" />
+
+                    <div class="caroselclass">
+
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                            data-bs-interval="false">
+                            <div class="carousel-inner carouselimage">
+
+                                <div class="carousel-item active">
+
+                                    <img class="imagemeasure" src="../assests/world1.jpg" class="d-block w-100"
+                                        alt="...">
+                                    <title> discovery land</title>
+                                    <title class="section"></title>
+
+
+
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world2.jpg" class="d-block w-100"
+                                        alt="...">
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world3.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world4.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world5.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world6.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world7.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world8.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world9.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world10.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world11.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world12.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world13.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world14.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world15.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world16.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world17.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world18.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world19.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world20.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world21.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world22.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world23.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world24.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world25.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div> -->
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world26.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world27.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world28.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="imagemeasure" src="../assests/world29.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button> -->
+
+
+                        <p class="title"></p>
+                        <p class="description"></p>
+                        <img style="border: solid red;" class="weatherclass" src="../assests/weathericon.png">
+                        <img class="mphclass" src="../assests/mph.png">
+                        <img class="celsiusclass" src="../assests/degreesicon.png">
+                        <img class="location" src="../assests/location.png">
+
+                        <button class="previousclass" id="previous" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">prev</button>
+                        <button class="nextclass" id="next" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">Next</button>                 
+                        <script src="../js/discoveryland.js"></script>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="rowimg">
+            <div class="expimg">
+                <h1 class="tag">Experiences</h1>
+                <img class="explayout" src="../assests/experiecesimg.jpg">
+            </div>
+            <div class="expimg">
+                <h1 class="tag">Lifestyle</h1>
+                <img class="explayout" src="../assests/lifestyleimg.jpg">
+            </div>
+            <div class="expimg">
+                <h1 class="tag">Wellness</h1>
+                <img class="explayout" src="../assests/wellnessimg.jpg">
             </div>
         </div>
 
@@ -106,7 +465,10 @@
             </div>
         </div>
     </div>
+    </div>
 
+    </div>
 </body>
 </head>
+
 </html>
