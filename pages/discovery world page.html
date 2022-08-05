@@ -87,7 +87,7 @@
                         </div>
                         <div class="slideshow">
                             <h1 class="naming">James Island </h1>
-                            <p class="editingcolor"> Southern Gulf Islands,British Columbia,Canada</p>
+                            <p class="editingcolor"> Southern Gulf Islands,British Columbia</p>
                             <img class="slidingimg" src="../assests/world6.jpg">
                         </div>
                         <div class="slideshow">
@@ -239,20 +239,13 @@
                             <div class="carousel-inner carouselimage">
 
                                 <div class="carousel-item active">
-
                                     <img class="imagemeasure" src="../assests/world1.jpg" class="d-block w-100"
                                         alt="...">
                                     <title> discovery land</title>
-                                    <title class="section"></title>
-
-
-
-
                                 </div>
                                 <div class="carousel-item">
                                     <img class="imagemeasure" src="../assests/world2.jpg" class="d-block w-100"
                                         alt="...">
-
                                 </div>
                                 <div class="carousel-item">
                                     <img class="imagemeasure" src="../assests/world3.jpg" class="d-block w-100"
@@ -375,24 +368,50 @@
                             </button> -->
 
 
-                        <p class="title"></p>
-                        <p class="description"></p>
-                        <img style="border: solid red;" class="weatherclass" src="../assests/weathericon.png">
-                        <img class="mphclass" src="../assests/mph.png">
-                        <img class="celsiusclass" src="../assests/degreesicon.png">
-                        <img class="location" src="../assests/location.png">
-
-                        <button class="previousclass" id="previous" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">prev</button>
-                        <button class="nextclass" id="next" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">Next</button>                 
                         <script src="../js/discoveryland.js"></script>
+
+                        <div class="dynamicclass">
+                            <div class="prevnxtclass">
+                                <button class="previousclass" id="previous" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching"
+                                    data-bs-slide="prev">&#8592;</button>
+                                <button class="nextclass" id="next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching"
+                                    data-bs-slide="next">&#8594;</button>
+                            </div>
+
+                            <div class="displayicons">
+                                <div class="climateclass">
+                                    <img class="weatherclass" src="../assests/weathericon.png">
+                                    <div id="weather"></div>
+                                </div>
+                                <div class="speedclass">
+                                    <img class="mphclass" src="../assests/mph.png">
+                                    <div id="megaperhr"></div>
+                                </div>
+                                <div class="displaycelsius">
+                                    <img class="celsiusclass" src="../assests/degreesicon.png">
+                                    <div id="celsiusdirection"></div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="contentdisplay">
+
+                                <div class="description"></div>
+                                <div class="title"></div>
+
+                            </div>
+
+                            <div class="mappingclass">
+                                <img class="location" src="../assests/location.png">
+                                <div id="map"></div>
+
+                            </div>
+
+                        </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
         </div>

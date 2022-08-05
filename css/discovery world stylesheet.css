@@ -90,8 +90,8 @@
 
 .explayout {
   height: 700px;
-  width: 80%;
-  bottom: 900%;
+  width: 100%;
+
 }
 
 .tag {
@@ -125,12 +125,12 @@
 
 .naming {
   position: absolute;
-  top: 70%;
+  top: 71%;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 10;
-  padding-left: 88px;
-  line-height: 0.2;
+  padding-left: 50px;
+
 }
 
 
@@ -140,10 +140,11 @@
 
 .editingcolor {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
-  padding-top: 1300px;
-  padding-left: 100px;
+  padding-top: 900px;
+  padding-left: 60px;
+
 }
 
 .movingimg {
@@ -159,7 +160,7 @@
 
 .expimg {
   width: 33.3%;
-  top: 100%;
+
 }
 
 
@@ -191,7 +192,7 @@ li {
 
 .icon {
   height: 80px;
-  width:100px;
+  width: 100px;
   padding-left: 50px;
   padding-top: 1%;
 }
@@ -203,7 +204,6 @@ li {
 .mail {
   text-decoration: underline;
 }
-
 
 .copy {
   padding-left: 5%;
@@ -257,20 +257,20 @@ copy:hover {
   width: 70%;
 }
 
-
 .globeblock {
   background-color: whitesmoke;
-}
+  position: relative;
 
+}
 
 .onclick {
   position: absolute;
 }
 
-.previousclass {
+/* .previousclass {
   position: absolute;
-  left: 70px;
-  top:20px;
+  left: 79px;
+  top:90px;
   background: rgb(11, 27, 24);
   color: white;
   font-size: 20px;
@@ -278,36 +278,37 @@ copy:hover {
 
 .nextclass {
   position: absolute;
-  top:20px;
+  top:90px;
   left: 200px;
   background: rgb(11, 27, 24);
   color: white;
   font-size: 20px;
-}
+} */
 
 .caroselclass {
-  
-  position: relative;
-  bottom: 1300px;
-  padding-bottom: 30%;
+
+  position: absolute;
+  top: 0;
   background: rgb(11, 27, 24);
-  height: 700px;
-  width: 600px;
-  left: 600px;
+  height: 800px;
+  width: 900px;
+  left: 780px;
+
 }
 
 .carouselimage {
   width: 35% !important;
   height: 1000px !important;
-  left: 350px;
-  padding-bottom: 100px;
+  left: 540px;
+  bottom: 80px;
+
 }
 
 .imagemeasure {
   position: absolute;
-  height: 700px;
-  
-  
+  height: 770px;
+  top: 40px;
+
 }
 
 .cardinfo {
@@ -324,63 +325,67 @@ copy:hover {
   background-color: black;
 }
 
-
-
-.title{
+.dynamicclass {
   position: absolute;
-  bottom: 200px;
-  right:400px;
-  height:30%;
-  width: 100px;
+  bottom: 10px;
+  width: 100%;
   color: white;
-  
 }
 
-.description{
-  position: absolute;
-  bottom: 200px;
-  left:180px;
-  bottom: 100px;
-  width: 100px;
-  height:30%;
-  color: white;
+.title {
+  font-size: 50px;
+  font-weight: lighter;
+  position: relative;
+}
+
+.description {
+  color: grey;
+  font-size: 20px;
 
 }
 
+.prevnxtclass {
+  margin: 100px;
+}
 
+.displayicons {
+  display: flex;
+  margin: 100px;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.previousclass,
+.nextclass {
+  background-color: transparent;
+  color: white;
+  font-size: 50px;
+  border: none;
+
+}
+
+.contentdisplay {
+  margin: 100px;
+}
+
+.mappingclass {
+  margin: 100px;
+}
 
 .rowimg {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 10%;
 }
 
-.weatherclass{
-  position: absolute;
-  top:100px;
-  color:white;
-  padding-left:70px;
-  padding-top: 40px;
+.weatherclass {
+  top: 400px;
 }
 
-.mphclass{
-  position: absolute;
-  top:100px;
-  padding-left:160px;
-  padding-top: 40px;
+.location {
+  display: inline;
 }
 
-.celsiusclass{
-  position: absolute;
-  top:100px;
-  padding-left:250px;
-  padding-top: 40px;
+#map {
+  display: inline;
 }
 
-.location{
-  position: absolute;
-  top:30px;
-  padding-top: 550px;
-  padding-left:70px;
-}
 
